@@ -21,7 +21,8 @@ print 'Current letter is : ', s
 
 #列表的 split() 方法
 #Python split()通过指定分隔符对字符串进行切片，生成列表，如果参数num 有指定值，则仅分隔 num 个子字符串)
-#str.split(str="", num=string.count(str)).)) str 分隔符，默认为空格。num分割次数
+#str.split(str="", num=string.count(str)).))
+#str 分隔符，默认为空格，如果为其他比如+打印出来不包括+。num分割次数。两者可选或不添加。
 print s.split()
 
 #列表中添加元素的几种方法
